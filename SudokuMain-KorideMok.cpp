@@ -1,4 +1,4 @@
-#include "UnitTests-KorideMok.h"
+#include "UnitTests-KorideMok.hpp"
 
 int main(){
     TestSquareFunctions();

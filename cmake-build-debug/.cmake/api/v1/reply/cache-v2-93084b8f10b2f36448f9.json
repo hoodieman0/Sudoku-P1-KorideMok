@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok/cmake-build-debug"
+			"value" : "c:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok"
+			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok/cmake-build-debug"
+			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/cmake-build-debug"
 		},
 		{
 			"name" : "P1_Mok_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok"
+			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok"
 		}
 	],
 	"kind" : "cache",

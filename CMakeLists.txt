@@ -7,7 +7,7 @@ include_directories(.)
 
 add_executable(P1_Mok
         Square-KorideMok.cpp
-        Square-KorideMok.h
+        Square-KorideMok.hpp
         SudokuMain-KorideMok.cpp
         UnitTests-KorideMok.cpp
-        UnitTests-KorideMok.h)
+        UnitTests-KorideMok.hpp)

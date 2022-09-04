@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok
+# Install script for directory: C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -55,7 +55,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/P1-Mok/."
+					"path" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
 				}
 			],
 			"language" : "CXX",
@@ -132,7 +132,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Square-KorideMok.h",
+			"path" : "Square-KorideMok.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -149,7 +149,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "UnitTests-KorideMok.h",
+			"path" : "UnitTests-KorideMok.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

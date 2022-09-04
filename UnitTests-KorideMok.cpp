@@ -2,7 +2,7 @@
 // Created by hoodi on 9/3/2022.
 //
 
-#include "Square-KorideMok.h"
+#include "Square-KorideMok.hpp"
 #include <iostream>
 
 void PrintTestCase(Square* test){
