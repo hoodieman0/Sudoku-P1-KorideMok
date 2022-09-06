@@ -1,3 +1,5 @@
+// Written by James Mok and Niel Koride
+
 #include "UnitTests-KorideMok.hpp"
 #include "tools.hpp"
 
@@ -6,7 +8,3 @@ int main(){
     TestSquareFunctions();
     bye();
 }
-
-
-//BOTH NAMES must be written at the top of every file.
-//use tools bye()

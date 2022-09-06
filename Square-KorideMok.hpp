@@ -1,9 +1,7 @@
-//
-// Created by hoodi on 9/3/2022.
-//
+// Written by James Mok and Niel Koride
 
-#ifndef P1_MOK_SQUARE_MOKPLACE_H
-#define P1_MOK_SQUARE_MOKPLACE_H
+#ifndef P1_MOK_SQUARE_KORIDEMOK_H
+#define P1_MOK_SQUARE_KORIDEMOK_H
 
 class Square {
     private:
@@ -20,4 +18,4 @@ class Square {
         void Print();
 };
 
-#endif //P1_MOK_SQUARE_MOKPLACE_H
+#endif P1_MOK_SQUARE_KORIDEMOK_H

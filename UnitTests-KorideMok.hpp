@@ -1,10 +1,8 @@
-//
-// Created by hoodi on 9/4/2022.
-//
+// Written by James Mok and Niel Koride
 
 #ifndef P1_MOK_UNITTESTS_KORIDEMOK_H
 #define P1_MOK_UNITTESTS_KORIDEMOK_H
 
 void TestSquareFunctions();
 
-#endif //P1_MOK_UNITTESTS_KORIDEMOK_H
+#endif P1_MOK_UNITTESTS_KORIDEMOK_H

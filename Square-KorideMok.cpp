@@ -1,12 +1,7 @@
-//
-// Created by James Mok on 9/3/2022.
-//
+// Written by James Mok and Niel Koride
 
 #include "Square-KorideMok.hpp"
 #include <iostream>
-
-// state
-// set of relationships to other squares
 
 Square::Square(){
     std::cout << "Default Constructor" << std::endl;
@@ -18,9 +13,10 @@ Square::Square(){
 Square::Square(char startingValue){
     value = startingValue;
     if (startingValue == '-'){
-        possibilities = 0x3FE;
+        possibilities = 0x3FE; //binary: 0011 1111 1110
         fixed = false;
     }
+    //unit test value
     else if (startingValue == '~'){
         possibilities = 0x0f2;
         fixed = false;
@@ -51,7 +47,7 @@ void Square::Print(){
     std::cout << "possibilities: ";
 
     short temp = possibilities >> 1;
-    short mask = 0x001; // 0001
+    short mask = 0x001;
     for (int counter = 1; counter <= 9; counter++){
         if ((temp & mask) == 1){
             std::cout << counter;
