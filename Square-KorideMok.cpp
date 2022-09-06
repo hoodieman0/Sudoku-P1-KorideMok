@@ -8,8 +8,6 @@
 // state
 // set of relationships to other squares
 
-//TODO create unit tests (especially for print) and make sure syntax is correct
-
 Square::Square(){
     std::cout << "Default Constructor" << std::endl;
     value = '\0';
@@ -49,13 +47,12 @@ void Square::Mark(char ch){
 
 void Square::Print(){
     std::cout << "value: " << value << std::endl;
-    std::cout << "fixed: " << std::boolalpha <<fixed << std::endl;
-    std::cout << "possiblities: ";
+    std::cout << "fixed: " << std::boolalpha << fixed << std::endl;
+    std::cout << "possibilities: ";
 
     short temp = possibilities >> 1;
-    short mask = 0x001;
-    short counter = 1;
-    while (temp > 0){
+    short mask = 0x001; // 0001
+    for (int counter = 1; counter <= 9; counter++){
         if ((temp & mask) == 1){
             std::cout << counter;
         }
@@ -64,7 +61,6 @@ void Square::Print(){
         }
 
         temp = temp >> 1;
-        counter++;
     }
     std::cout << std::endl;
 }

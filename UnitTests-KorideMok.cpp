@@ -5,6 +5,8 @@
 #include "Square-KorideMok.hpp"
 #include <iostream>
 
+//A single function-test consists of a print statement that says what is being tested and what the output should be.  Following that is the call on the function being tested.  Last is call on print() to display the results.
+
 void PrintTestCase(Square* test){
     std::cout << "~Before~" << std::endl;
     test->Print();
@@ -33,7 +35,7 @@ void TestSquareFunctions(){
     objThree->~Square();
     std::cout << std::endl;
 
-    std::cout << "Varied Possibilities Test" << std::endl;
+    std::cout << "Limited Possibilities Test" << std::endl;
     Square* objFour = new Square('~');  //TODO testing character
     PrintTestCase(objFour);
     objFour->~Square();

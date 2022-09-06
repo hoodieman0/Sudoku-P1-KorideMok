@@ -1,9 +1,11 @@
 # ninja log v5
-34	160	6840224880200894	CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj	8c6231bcbe927b38
-4	481	6840353137894425	CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj	237fb54df444f643
-4	543	6840352071476510	CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj	c1ce028dd7007c4
-481	660	6840353139664216	P1_Mok.exe	561b58276f720fb3
-23	128	6840362265490943	CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj	2d30ddaa6cace262
-3	349	6840362267695338	CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj	529070181a966801
-2	306	6840362399186070	CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj	3a774c421cb872e5
-306	428	6840362400397515	P1_Mok.exe	561b58276f720fb3
+3	408	6841298897423679	CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj	2d30ddaa6cace262
+4	504	6840398233394156	CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj	529070181a966801
+12	445	6841290793955118	CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj	3a774c421cb872e5
+516	714	6840398235319384	P1_Mok.exe	561b58276f720fb3
+2	429	6841299345196639	CMakeFiles/P1_Mok.dir/tools.cpp.obj	dbe253160a3f87ef
+429	542	6841299346318530	P1_Mok.exe	3c3df06f5ed54b58
+2	292	6841301582922256	CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj	529070181a966801
+293	407	6841301584064657	P1_Mok.exe	3c3df06f5ed54b58
+2	280	6841301693789244	CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj	529070181a966801
+281	391	6841301694881264	P1_Mok.exe	3c3df06f5ed54b58

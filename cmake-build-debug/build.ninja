@@ -81,6 +81,13 @@ build CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj: CXX_COMPILER__P1_Mok_De
   OBJECT_DIR = CMakeFiles\P1_Mok.dir
   OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
 
+build CMakeFiles/P1_Mok.dir/tools.cpp.obj: CXX_COMPILER__P1_Mok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/tools.cpp || cmake_object_order_depends_target_P1_Mok
+  DEP_FILE = CMakeFiles\P1_Mok.dir\tools.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
+  OBJECT_DIR = CMakeFiles\P1_Mok.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target P1_Mok
@@ -89,7 +96,7 @@ build CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj: CXX_COMPILER__P1_Mok_De
 #############################################
 # Link the executable P1_Mok.exe
 
-build P1_Mok.exe: CXX_EXECUTABLE_LINKER__P1_Mok_Debug CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj
+build P1_Mok.exe: CXX_EXECUTABLE_LINKER__P1_Mok_Debug CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/tools.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\P1_Mok.dir
