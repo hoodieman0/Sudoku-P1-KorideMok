@@ -3,6 +3,10 @@
 #include "Square-KorideMok.hpp"
 #include <iostream>
 
+// ---------------------------------------------------------------------
+// Default Constructor for Square objects
+// No precondition
+// Postconiditon: Null value square object is created
 Square::Square(){
     std::cout << "Default Constructor" << std::endl;
     value = '\0';
@@ -10,6 +14,10 @@ Square::Square(){
     possibilities = 0;
 }
 
+// ---------------------------------------------------------------------
+// Square Constructor
+// No precondition
+// Postcondition: Square object is created
 Square::Square(char startingValue){
     value = startingValue;
     if (startingValue == '-'){
@@ -28,11 +36,21 @@ Square::Square(char startingValue){
     }
 }
 
+// ---------------------------------------------------------------------
+// Square Destructor
+// Precondition: Square object exists
+// Postcondition: Deletes Square object
 Square::~Square(){
     std::cout << "Default Destructor" << std::endl;
 }
 
-void Square::Mark(char ch){
+// ---------------------------------------------------------------------
+// Marks the Square object with a valid character
+// Precondition: Square object exists
+// Postcondition: Changes square variable "value" to the given character
+// Failure: "Cannot Add Value"
+void
+Square::Mark(char ch){
     if (!this->fixed){
         value = ch;
     }
@@ -41,7 +59,12 @@ void Square::Mark(char ch){
     }
 }
 
-void Square::Print(){
+// ---------------------------------------------------------------------
+// Prints the variables of the Square object in a human-readable format
+// Preconditions: Square object exists
+// Postconditions: Prints the variables to the console
+void
+Square::Print(){
     std::cout << "value: " << value << std::endl;
     std::cout << "fixed: " << std::boolalpha << fixed << std::endl;
     std::cout << "possibilities: ";

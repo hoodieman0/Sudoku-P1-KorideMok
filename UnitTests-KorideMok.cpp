@@ -3,9 +3,12 @@
 #include "Square-KorideMok.hpp"
 #include <iostream>
 
-//A single function-test consists of a print statement that says what is being tested and what the output should be.  Following that is the call on the function being tested.  Last is call on print() to display the results.
-
-void PrintTestCase(Square* test){
+// ---------------------------------------------------------------------
+// Helper function for TestSquareFunctions()
+// Precondition: Square object has been created
+// Postcondition: Prints the before a mark and after a mark state of the square
+void
+PrintTestCase(Square* test){
     std::cout << "~Before~" << std::endl;
     test->Print();
     std::cout << "!Mark!" << std::endl;
@@ -13,8 +16,12 @@ void PrintTestCase(Square* test){
     std::cout << "~After~" << std::endl;
     test->Print();
 }
-
-void TestSquareFunctions(){
+// ---------------------------------------------------------------------
+// Tests all the functions related to the Square Class
+// No preconditions
+// Prints the state of each test object
+void
+TestSquareFunctions(){
     std::cout << "Testing the Square class from Square-KorideMok.hpp" << std::endl;
     std::cout << "Expected Output:" << std::endl;
     std::cout << "1. Null values" << std::endl;
