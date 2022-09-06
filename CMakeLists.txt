@@ -10,4 +10,6 @@ add_executable(P1_Mok
         Square-KorideMok.hpp
         SudokuMain-KorideMok.cpp
         UnitTests-KorideMok.cpp
-        UnitTests-KorideMok.hpp)
+        UnitTests-KorideMok.hpp
+        tools.cpp
+        tools.hpp)
