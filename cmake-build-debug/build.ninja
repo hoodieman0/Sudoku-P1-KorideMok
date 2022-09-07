@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: P1_Mok
+# Project: P1-KorideMok
 # Configurations: Debug
 # =============================================================================
 
@@ -40,6 +40,61 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target P1-KorideMok
+
+
+#############################################
+# Order-only phony target for P1-KorideMok
+
+build cmake_object_order_depends_target_P1-KorideMok: phony || CMakeFiles/P1-KorideMok.dir
+
+build CMakeFiles/P1-KorideMok.dir/Square-KorideMok.cpp.obj: CXX_COMPILER__P1-KorideMok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/Square-KorideMok.cpp || cmake_object_order_depends_target_P1-KorideMok
+  DEP_FILE = CMakeFiles\P1-KorideMok.dir\Square-KorideMok.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
+  OBJECT_DIR = CMakeFiles\P1-KorideMok.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1-KorideMok.dir
+
+build CMakeFiles/P1-KorideMok.dir/SudokuMain-KorideMok.cpp.obj: CXX_COMPILER__P1-KorideMok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/SudokuMain-KorideMok.cpp || cmake_object_order_depends_target_P1-KorideMok
+  DEP_FILE = CMakeFiles\P1-KorideMok.dir\SudokuMain-KorideMok.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
+  OBJECT_DIR = CMakeFiles\P1-KorideMok.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1-KorideMok.dir
+
+build CMakeFiles/P1-KorideMok.dir/UnitTests-KorideMok.cpp.obj: CXX_COMPILER__P1-KorideMok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/UnitTests-KorideMok.cpp || cmake_object_order_depends_target_P1-KorideMok
+  DEP_FILE = CMakeFiles\P1-KorideMok.dir\UnitTests-KorideMok.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
+  OBJECT_DIR = CMakeFiles\P1-KorideMok.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1-KorideMok.dir
+
+build CMakeFiles/P1-KorideMok.dir/tools.cpp.obj: CXX_COMPILER__P1-KorideMok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/tools.cpp || cmake_object_order_depends_target_P1-KorideMok
+  DEP_FILE = CMakeFiles\P1-KorideMok.dir\tools.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
+  OBJECT_DIR = CMakeFiles\P1-KorideMok.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1-KorideMok.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P1-KorideMok
+
+
+#############################################
+# Link the executable P1-KorideMok.exe
+
+build P1-KorideMok.exe: CXX_EXECUTABLE_LINKER__P1-KorideMok_Debug CMakeFiles/P1-KorideMok.dir/Square-KorideMok.cpp.obj CMakeFiles/P1-KorideMok.dir/SudokuMain-KorideMok.cpp.obj CMakeFiles/P1-KorideMok.dir/UnitTests-KorideMok.cpp.obj CMakeFiles/P1-KorideMok.dir/tools.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P1-KorideMok.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P1-KorideMok.exe
+  TARGET_IMPLIB = libP1-KorideMok.dll.a
+  TARGET_PDB = P1-KorideMok.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -50,61 +105,6 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
-# Object build statements for EXECUTABLE target P1_Mok
-
-
-#############################################
-# Order-only phony target for P1_Mok
-
-build cmake_object_order_depends_target_P1_Mok: phony || CMakeFiles/P1_Mok.dir
-
-build CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj: CXX_COMPILER__P1_Mok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/Square-KorideMok.cpp || cmake_object_order_depends_target_P1_Mok
-  DEP_FILE = CMakeFiles\P1_Mok.dir\Square-KorideMok.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
-  OBJECT_DIR = CMakeFiles\P1_Mok.dir
-  OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
-
-build CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj: CXX_COMPILER__P1_Mok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/SudokuMain-KorideMok.cpp || cmake_object_order_depends_target_P1_Mok
-  DEP_FILE = CMakeFiles\P1_Mok.dir\SudokuMain-KorideMok.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
-  OBJECT_DIR = CMakeFiles\P1_Mok.dir
-  OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
-
-build CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj: CXX_COMPILER__P1_Mok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/UnitTests-KorideMok.cpp || cmake_object_order_depends_target_P1_Mok
-  DEP_FILE = CMakeFiles\P1_Mok.dir\UnitTests-KorideMok.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
-  OBJECT_DIR = CMakeFiles\P1_Mok.dir
-  OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
-
-build CMakeFiles/P1_Mok.dir/tools.cpp.obj: CXX_COMPILER__P1_Mok_Debug C$:/Users/hoodi/OneDrive/Documents/1New$ Haven/5_Fifth$ Semester/CSCI-4526$ Advanced$ C++/Sudoku$ P1-KorideMok/tools.cpp || cmake_object_order_depends_target_P1_Mok
-  DEP_FILE = CMakeFiles\P1_Mok.dir\tools.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/."
-  OBJECT_DIR = CMakeFiles\P1_Mok.dir
-  OBJECT_FILE_DIR = CMakeFiles\P1_Mok.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target P1_Mok
-
-
-#############################################
-# Link the executable P1_Mok.exe
-
-build P1_Mok.exe: CXX_EXECUTABLE_LINKER__P1_Mok_Debug CMakeFiles/P1_Mok.dir/Square-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/SudokuMain-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/UnitTests-KorideMok.cpp.obj CMakeFiles/P1_Mok.dir/tools.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\P1_Mok.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = P1_Mok.exe
-  TARGET_IMPLIB = libP1_Mok.dll.a
-  TARGET_PDB = P1_Mok.exe.dbg
 
 
 #############################################
@@ -121,7 +121,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build P1_Mok: phony P1_Mok.exe
+build P1-KorideMok: phony P1-KorideMok.exe
 
 # =============================================================================
 # Folder targets.
@@ -131,7 +131,7 @@ build P1_Mok: phony P1_Mok.exe
 #############################################
 # Folder: C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/cmake-build-debug
 
-build all: phony P1_Mok.exe
+build all: phony P1-KorideMok.exe
 
 # =============================================================================
 # Built-in targets

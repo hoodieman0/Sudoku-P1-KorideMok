@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "P1_Mok"
+			"value" : "P1-KorideMok"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1228,6 +1228,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "P1-KorideMok_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok/cmake-build-debug"
+		},
+		{
+			"name" : "P1-KorideMok_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "P1-KorideMok_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/hoodi/OneDrive/Documents/1New Haven/5_Fifth Semester/CSCI-4526 Advanced C++/Sudoku P1-KorideMok"
 		},
 		{
 			"name" : "P1_Mok_BINARY_DIR",

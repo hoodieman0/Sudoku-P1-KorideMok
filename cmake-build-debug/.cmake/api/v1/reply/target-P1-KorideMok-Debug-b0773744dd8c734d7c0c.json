@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "P1_Mok.exe"
+			"path" : "P1-KorideMok.exe"
 		},
 		{
-			"path" : "P1_Mok.pdb"
+			"path" : "P1-KorideMok.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -76,7 +76,7 @@
 			]
 		}
 	],
-	"id" : "P1_Mok::@6890427a1f51a3e7e1df",
+	"id" : "P1-KorideMok::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -96,8 +96,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "P1_Mok",
-	"nameOnDisk" : "P1_Mok.exe",
+	"name" : "P1-KorideMok",
+	"nameOnDisk" : "P1-KorideMok.exe",
 	"paths" : 
 	{
 		"build" : ".",

@@ -1,7 +1,7 @@
 // Written by James Mok and Niel Koride
 
 #include "Square-KorideMok.hpp"
-#include <iostream>
+#include "tools.hpp"
 
 // ---------------------------------------------------------------------
 // Helper function for TestSquareFunctions()

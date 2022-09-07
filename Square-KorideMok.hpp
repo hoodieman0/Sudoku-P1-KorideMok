@@ -1,14 +1,13 @@
-// Written by James Mok and Niel Koride
+// P1-Square Written by James Mok and Niel Koride
 
 #ifndef P1_MOK_SQUARE_KORIDEMOK_H
 #define P1_MOK_SQUARE_KORIDEMOK_H
 
 class Square {
     private:
-        short possibilities;
-        char value;
-        bool fixed; //is part of the original puzzle
-        //why is the order important?
+        short possibilities = 0x3FE;
+        char value = '-';
+        bool fixed = false; //is object part of the original puzzle?
 
     public:
         Square();
